@@ -71,10 +71,15 @@ El layout estara mezclado entre magazine y blog.
 
 ###Sketch Desktop:
 
-![Sketch desktop](assets/img/sketch-desktop.jpeg)
+
+![sketch desktop](assets/img/sketch-desktop.png)
+
+
 
 ###Sketch Movil:
-![Sketch movil](assets/img/sketch-movil.jpeg)
+
+
+![Sketch movil](assets/img/sketch-movil.png)
 
 
 
