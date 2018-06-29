@@ -68,3 +68,13 @@ Página de contacto para resolver inquietudes y sugerencias.
 ###El layuot del sitio:
 
 El layout estara mezclado entre magazine y blog.
+
+###Sketch Desktop:
+
+![Sketch desktop](assets/img/sketch-desktop.jpeg)
+
+###Sketch Movil:
+![Sketch movil](assets/img/sketch-movil.jpeg)
+
+
+
