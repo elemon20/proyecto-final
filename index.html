@@ -2,6 +2,7 @@
 <html>
 <head>
 	 <meta charset="utf-8">
+   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 	<title>Quilicura | Vegariano</title>
 
@@ -15,65 +16,67 @@
 
     <!-- header -->
 
-    <header class="header__vegariano">
+    <header class="container-fluid header__vegariano">
 
     <!-- navbar -->
+        
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar__vegariano">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar__vegariano-logo-inner" href=""><img src="assets/img/salud-quilicura2.png"></a>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light header__navbar_vegariano">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                         <a class="nav-link" href="#"><span class="sr-only">Inicio</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"><span>Conócenos</span></a>
+                      </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="#"><span>Nutrientes</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>
+                            Nutrirecetas</span></a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><span>Veganas</span></a>
+                            <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#"><span>Vegetarianas</span></a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#"><span>celíacos</span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"><span>Blog</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"><span>Contacto</span></a>
+                      </li>
+                     
+                  </ul>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                       <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conócenos</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nutrientes</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Nutrirecetas
-                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Veganas</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Vegetarianas</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">celíacos</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                   
-                </ul>
+          <!-- Button search -->
+                <div class="search">
+                  <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="buscar..." aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search fa-lg"></i></button>
+                  </form>
+                </div>
 
-        <!-- Button search -->
+          <!-- End button search -->
 
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="buscar..." aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search fa-lg"></i></button>
-                </form>
-
-        <!-- End button search -->
-
-            </div>
-        </nav>
-
+              </div>
+          </nav>
+       
+      
         <!-- End navbar -->
 
         <!-- title -->
 
-        <div class="header__vegariano_title"><h1>Lorem ipsum dolor sit amet.</h1></div>
+        <div class="header__vegariano_title"><h1></h1></div>
 
         <!-- End title -->
 
@@ -87,15 +90,16 @@
 
         <!-- first section --!
 
-        <!-- News section -->
+        <-- News section -->
+
         <section class="container-fluid">
             <div class="row  mr-0 ml-0">
                 <div class="card-columns col-lg-8 col-md-12 col-sm-12">
                   <div class="card">
-                    <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+                    <img class="card-img-top" src="assets/img/lentejas.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title that wraps to a new line</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Sabías que...</h5>
+                      <p class="card-text">Las lentejas estimulan el buen funcionamiento del sistema nervioso, combaten la retención de líquidos y ayudan a prevenir la anemia.</p>
                       <p class="card-text"><small class="text-muted"><a href="#">Leer más...</a></small></p>
                     </div>
                   </div>
@@ -106,7 +110,7 @@
                     </blockquote>
                   </div>
                   <div class="card">
-                    <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+                    <img class="card-img-top" src="assets/img/pesas.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -127,7 +131,7 @@
                     </div>
                   </div>
                   <div class="card">
-                    <img class="card-img" src=".../100px260/" alt="Card image">
+                    <img class="card-img" src="assets/img/vitamina.jpg" alt="Card image">
                   </div>
                   <div class="card p-3 text-right">
                     <blockquote class="blockquote mb-0">
@@ -162,7 +166,41 @@
         <!-- end first section -->
     </main>
 
+    <!-- footer -->
 
+   <footer class="footer__vegariano">
+          <div class="row">
+              <div class="col-sm footer__vegariano_image">
+                  <a href="#">
+                  <img src="assets/img/salud-quilicura.png" alt="Vegariano">
+                  </a>
+              </div>
+              <div class="col-sm">
+                  <div class="footer__vegariano_icon">
+                      <i class="fab fa-facebook fa-3x"></i>
+                      <i class="fab fa-instagram fa-3x"></i>
+                      <i class="fab fa-twitter fa-3x"></i>
+                  </div>
+              </div>
+              <div class="col-sm justify-content-end">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#">Acerca de</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+           <small> © Vegariano 2018. Todos los derechos reservados.</small>
+      </footer>
 
 
     <!-- Optional JavaScript -->

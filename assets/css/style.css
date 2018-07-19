@@ -1,0 +1,139 @@
+
+/* Global Styles */
+
+html {
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 1rem;
+    }
+  }
+
+html body{
+  font-family: 'Helvetica Neue CE 65';
+  box-sizing: border-box;
+  background-color: #f2f7f4;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*navbar*/
+
+.navbar__vegariano{
+  background-color: #ffffff;
+  transform: skewY(-1.0deg) translate3d(0,0,0);
+  top: -30px;
+  width: 100%;
+  padding: 60px 0 50px 0;
+  z-index: 20;
+  /*overflow: hidden;*/
+}
+
+.navbar__vegariano ul li a span{
+  display: block;
+  text-decoration: none;
+  color: #03AA27;
+  transform: skewY(1.0deg) translate3d(0,0,0);
+}
+
+.burger {
+  background-color: #03AA27;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: skewY(1.0deg) translate3d(0,0,0);
+  
+}
+
+.navbar-toggler-icon {
+  background-color: #03AA27;
+}
+
+}
+.navbar__vegariano-logo-inner img{
+  display: block;
+  overflow: hidden;
+}
+
+.search {
+  transform: skewY(1.0deg) translate3d(0,0,0);
+}
+
+/*Header*/
+
+.header__vegariano_title {
+  background-image: url("../img/smoothies.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  margin-top: 120px;
+  height: 300px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.header__vegariano_title:hover {
+  background-image: url("../img/frutos-rojos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  margin-top: 120px;
+  height: 300px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+/* Main */
+
+.main__vegariano {
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer__vegariano {
+  background-color: #03AA27;
+  text-align: center;
+
+}
+
+.footer__vegariano_image img {
+  max-width: 150px;
+  margin-top: 20px;
+}
+
+.footer__vegariano_icon {
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.footer__vegariano_icon i {
+  margin: 20px;
+}
+
+.footer_vegariano ul li a{
+  color: #f2f7f4;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.footer__vegariano small {
+  color: #f2f7f4;
+}
