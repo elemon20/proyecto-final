@@ -33,6 +33,9 @@ html body{
   box-sizing: inherit;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 /*navbar*/
 
@@ -160,11 +163,16 @@ html body{
   background-color: #ffffff;
 }
 
+.footer__vegariano_direction ul {
+  padding-left: 40px;
+}
+
 .footer__vegariano_direction ul li h5{
   color: #f2f7f4;
   transform: skewY(1.0deg) translate3d(0,0,0);
 }
-.footer__vegariano_direction ul li span{
+
+.footer__vegariano_direction ul li p{
   color: #f2f7f4;
   transform: skewY(1.0deg) translate3d(0,0,0);
 }
@@ -205,7 +213,12 @@ html body{
     border-radius: 30px;
     z-index: 999;
     transition: .25s;
-    border: 0.5px solid rgba(0,0,0,.7);
+    border: 0.5px solid rgba(0,0,0,.22);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
+}
+
+.form img {
+  border-radius: 100px;
+  margin: 50px 100px;
 }
