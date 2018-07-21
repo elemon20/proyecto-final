@@ -16,3 +16,21 @@ $(function() {
     }
   });
 });
+
+/*$(function() {
+	$("#slide img:eq(0)").addClass('activo').show();
+	var texto = $('.activo').attr('alt');
+	$('#slide').prepend("<p>" + texto + "</p>");
+	setInterval(slide,3000);
+
+	function slide() {
+		if($('.activo').next().size()) {
+			$('.activo').fadeOut().removeClass('activo').next().fadeIn().addClass('activo');
+
+		}else {
+			$('.activo').fadeOut().removeClass('activo');
+			$('#slide img:eq(0)').fadeIn().addClass('activo');
+		}
+		}
+	
+});*/
