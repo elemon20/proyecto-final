@@ -44,7 +44,7 @@ body {
   transform: skewY(-1.0deg) translate3d(0,0,0);
   top: -30px;
   width: 100%;
-  padding: 60px 0 50px 0;
+  padding: 25px 0 10px 0;
   z-index: 20;
   /*overflow: hidden;*/
 }
@@ -57,27 +57,45 @@ body {
 }
 
 .burger {
-  background-color: #03AA27;
-  background-size: cover;
-  background-repeat: no-repeat;
+  border: none;
+  margin-right: 30px;
   transform: skewY(1.0deg) translate3d(0,0,0);
-  
 }
 
-.navbar-toggler-icon {
-  background-color: #03AA27;
+.burger span{
+  color: #03AA27;
+  transform: skewY(1.0deg) translate3d(0,0,0);
 }
 
+#navbarSupportedContent {
+  padding-right: 50px;
+  text-align: right;
 }
-.navbar__vegariano-logo-inner img{
+
+.navbar__vegariano-logo{
+  width: 8em;
+  margin-left: 10px;
   display: block;
-  overflow: hidden;
+  overflow-x: hidden;
+  transform: skewY(1.0deg) translate3d(0,0,0);
+}
+
+@media (max-width: 480px) {
+  .navbar__vegariano-logo {
+    margin-left: 10px;
+    width: 7em;
+  }
 }
 
 .search {
   transform: skewY(1.0deg) translate3d(0,0,0);
 }
 
+.dropdown-menu {
+  text-align: right;
+  margin-left: 10px;
+  transform: skewY(1.0deg) translate3d(0,0,0);
+}
 /*Header*/
 
 .header__vegariano_title {

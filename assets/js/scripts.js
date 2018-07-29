@@ -17,6 +17,10 @@ $(function() {
   });
 });
 
+$(".burger").on('click', function () {
+	$(this).toggleClass()
+})
+
 /*$(function() {
 	$("#slide img:eq(0)").addClass('activo').show();
 	var texto = $('.activo').attr('alt');
