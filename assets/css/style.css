@@ -41,7 +41,7 @@ body {
 
 .navbar__vegariano{
   background-color: #ffffff;
-  transform: skewY(-1.0deg) translate3d(0,0,0);
+  transform: skewY(-0.5deg) translate3d(0,0,0);
   top: -30px;
   width: 100%;
   padding: 25px 0 10px 0;
@@ -53,18 +53,18 @@ body {
   display: block;
   text-decoration: none;
   color: #03AA27;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .burger {
   border: none;
   margin-right: 30px;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .burger span{
   color: #03AA27;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 #navbarSupportedContent {
@@ -77,7 +77,7 @@ body {
   margin-left: 10px;
   display: block;
   overflow-x: hidden;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 @media (max-width: 480px) {
@@ -88,13 +88,13 @@ body {
 }
 
 .search {
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .dropdown-menu {
   text-align: right;
   margin-left: 10px;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 /*Header*/
 
@@ -140,19 +140,19 @@ body {
   padding: 50px 0 30px 0;
   background-color: #05cc47;
   text-align: center;
-  transform: skewY(-1.0deg) translate3d(0,0,0);
+  transform: skewY(-0.5deg) translate3d(0,0,0);
 }
 
 .footer__vegariano_image img {
   max-width: 300px;
   /*margin-top: 50px;*/
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .footer__vegariano_icon {
   color: #ffffff;
   border-radius: 50%;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .footer__vegariano_icon i {
@@ -187,16 +187,16 @@ body {
 
 .footer__vegariano_direction ul li h5{
   color: #f2f7f4;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .footer__vegariano_direction ul li p{
   color: #f2f7f4;
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 .iframe {
-  transform: skewY(1.0deg) translate3d(0,0,0);
+  transform: skewY(0.5deg) translate3d(0,0,0);
 }
 
 #copyright {
