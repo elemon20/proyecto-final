@@ -129,6 +129,7 @@ body {
 
 .blockquote {
   font-size: 1rem;
+  text-align: left;
 }
 
 /* footer */
