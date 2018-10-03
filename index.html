@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:700|Poppins:200,400,700" rel="stylesheet">
+
     <!-- Main Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
@@ -21,8 +23,8 @@
 
     <!-- navbar -->
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar__vegariano">
-        <a class="navbar-brand" href="index.html"><img class="navbar__vegariano-logo" src="assets/img/logo-vegariano6.png"></a>
+      <nav class="navbar navbar-expand-lg fixed-top navbar__vegariano">
+        <a class="navbar-brand" href="index.html"><img class="navbar__vegariano-logo" id="logo" src="assets/img/logo-vegariano6.png"></a>
 
         <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fas fa-chevron-down fa-2x"></i></span>
@@ -38,12 +40,12 @@
           <a class="nav-link" href="conocenos.html"><span>Conócenos</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Nutrientes.html"><span>Nutrientes</span></a>
+          <a class="nav-link" href="nutrientes.html"><span>Nutrientes</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>
           Nutrirecetas</span></a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu " aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="nutrirecetas.html"><span>Veganas</span></a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="nutrirecetas.html"><span>Vegetarianas</span></a>
@@ -52,10 +54,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Blog.html"><span>Blog</span></a>
+          <a class="nav-link" href="blog.html"><span>Blog</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contacto.html"><span>Contacto</span></a>
+          <a class="nav-link" href="contacto.html"><span>Contacto</span></a>
         </li>
 
       </ul>
@@ -90,11 +92,21 @@
 
 <main class="main__vegariano">
 
-        <!-- first section --!
+        <!-- first section -->
+        <div class="container-fluid text-center">
+          
+          <hr>
+          <i class="fas fa-dove fa-2x mr-2"></i>
+          <i class="fas fa-seedling fa-4x fa-spin"></i>
+          <i class="fas fa-dove fa-2x fa-flip-horizontal ml-2"></i>
+          <hr>
+        </div>
 
-          <-- News section -->
+          <!-- News section -->
 
           <section class="container-fluid">
+
+
             <div class="row  mr-0 ml-0">
               <div class="card-columns col-lg-8 col-md-12 col-sm-12">
                 <div class="card">
@@ -121,7 +133,7 @@
                     <p class="card-text"><small class="text-muted"><a href="#">Leer más...</a></small></p>
                   </div>
                 </div>
-                <div class="card bg-primary text-white text-center p-3">
+                <div class="card color-card text-white text-center p-3">
                   <blockquote class="blockquote mb-0">
                     <p>Lorem ipsum dolor ...sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
                     <p class="card-text"><small class="text-muted"><a href="#">Leer más...</a></small></p>
@@ -159,20 +171,27 @@
 
               <!-- video section -->
 
-              <div class="col-3 ml-4 d-none d-sm-block">
+              <aside class="col-3 ml-4 d-none d-sm-block sidebar__vegariano">
                 <div class="embed-responsive embed-responsive-16by9 mt-4"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/koN1dKFz98o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="embed-responsive embed-responsive-16by9 mt-4"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-wGV11UEweU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                <div></div>
-              </div>
+                <div class="mt-4"><p><a href="https://play.google.com/store/apps/details?id=com.goodbarber.planvapp" target="_blank" rel="noopener"><img src="http://vegetarianoshoy.org/wp-content/uploads/2018/04/Banner-Plan-V-Final.gif" alt=""></a></p>
+                </div>
 
-              <!-- end video section -->
+              </aside>
+                            <!-- end video section -->
 
-            </div>
+           
           </section>
           <!-- end first section -->
 
           <!-- second section -->
+          
+          <section class="container-fluid text-center carousel__vegariano">
+          <hr>
+          <i class="fas fa-frog fa-2x"></i>
+          <i class="fas fa-frog fa-2x fa-flip-horizontal"></i>
+          <hr>
           <div class="row mt-4">
             <div class="col-sm"></div>
               <div id="carouselExampleFade" class="carousel slide carousel-fade col-sm" data-ride="carousel">
@@ -231,6 +250,12 @@
               </div>
               <div class="col-sm"></div>
           </div>
+          <br>
+          <hr>
+          <div class="pt-3"><h6>CONOCE LAS DIFERENTES PERSONALIDADES QUE HAN DECIDIDO CAMBIAR SU ALIMENTACIÓN</h6>
+          </div>
+          <hr>
+          </section>
           
         </main>
 
@@ -288,6 +313,8 @@
 
         <!-- jQuery first, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 

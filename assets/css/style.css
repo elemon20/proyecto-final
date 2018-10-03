@@ -1,9 +1,9 @@
 
 /* Global Styles */
 
-html {
+/*html {
   font-size: 1rem;
-}
+}*/
 
 @media (max-width: 480px) {
   html {
@@ -23,10 +23,11 @@ html {
     }
   }
 
-html body{
-  font-family: 'Helvetica';
+html, body{
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   background-color: #f2f7f4;
+
 }
 
 *, *:before, *:after {
@@ -35,6 +36,60 @@ html body{
 
 body {
     overflow-x: hidden;
+}
+
+/* Font hierarchy */
+
+h1 {
+ font-size: 3em;
+}
+
+h2 {
+ font-size: 2.25em;
+}
+
+h4 {
+  font-size: 1.50em;
+}
+
+a {
+  font-size: 1rem;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+  h1 {
+   font-size: 2em;
+  }
+
+  h2 {
+   font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+}
+
+a {
+  font-family: 'Arima Madurai', cursive;
+  color: #03ab27a1;
+  text-shadow:0px 0px 0.5px #000000ad;
+}
+
+h5 {
+  color: #181A1B;
+}
+
+p {
+  color: #595B59;
+}
+
+i {
+  color: #37aa27;
+  text-shadow: 0px 0px 0.5px #000000ad;
+  
 }
 
 /*navbar*/
@@ -46,7 +101,7 @@ body {
   width: 100%;
   padding: 25px 0 10px 0;
   z-index: 20;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .navbar__vegariano ul li a span{
@@ -72,13 +127,18 @@ body {
   text-align: right;
 }
 
-.navbar__vegariano-logo{
+.navbar__vegariano-logo {
   width: 8em;
   margin-left: 10px;
   display: block;
   overflow-x: hidden;
   transform: skewY(0.5deg) translate3d(0,0,0);
 }
+
+.navbar__vegariano-logo:hover {
+  animation: a 5s infinite cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
 
 @media (max-width: 480px) {
   .navbar__vegariano-logo {
@@ -109,11 +169,12 @@ body {
   padding-top: 50px;
   padding-left: 50px;
 }
+
 .header__vegariano_title:hover {
-  background-image: url("../img/frutos-rojos.jpg");
+  background-image: url("../img/fruit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   text-align: left;
   margin-top: 120px;
   height: 300px;
@@ -132,6 +193,27 @@ body {
   text-align: left;
 }
 
+.color-card{
+  background-color: #03ab27a1;
+}
+
+
+
+.carousel__vegariano h6 {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #181A1B;
+}
+
+/*sidebar*/
+
+.sidebar__vegariano {
+  border-bottom: ridge 1px #d9dedb;
+  border-left: ridge 1px #d9dedb;
+  border-bottom-left-radius: 100px;
+}
+
 /* footer */
 
 .footer__vegariano {
@@ -142,6 +224,7 @@ body {
   background-color: #05cc47;
   text-align: center;
   transform: skewY(-0.5deg) translate3d(0,0,0);
+
 }
 
 .footer__vegariano_image img {
@@ -242,30 +325,43 @@ body {
   margin: 50px 100px;
 }
 
-/*#slide {
-  width: 600px;
-  overflow: hidden;
-  height: 400px;
-  margin: 50px auto;
-  box-shadow: 0 0 8px #000;
+/* style conocenos */
+.card__vegariano {
+  margin-top: 100px;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.30); 
+}
+
+/*@media (max-width: 768px) {
+.card-img {
+  display: none;
+ }
+}
+
+.card-img-overlay {
+  margin-left: 5px;
+}
+*/
+.card__vegariano_text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: -webkit-left;
+  padding: 20px;
+  background-color: #ffffffad;
+  border-radius: 5px;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.30);
+}
+
+.card__vegariano_text h6 {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #181A1B;
+}
+
+/*figure {
+  margin-top: 200px;
+  width: 100%;
+  height:auto;
   position: relative;
 }
 
-#slide img {
-  position: absolute;
-  z-index: 1;
-  display: none;
-  left: 0;
-  max-width: 400px;
-}
-
-#slide p {
-  z-index: 2;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-}*/

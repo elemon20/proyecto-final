@@ -1,6 +1,4 @@
 
-
-
 alert( "Bienvenido a Quilicura | Vegariano" );
 console.log("hola")
 
@@ -21,6 +19,18 @@ $(".burger").on('click', function () {
 	$(this).toggleClass()
 })
 
+$("#logo").rotate({ 
+   bind: 
+     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:180})
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0})
+        }
+     } 
+   
+});
 /*$(function() {
 	$("#slide img:eq(0)").addClass('activo').show();
 	var texto = $('.activo').attr('alt');
